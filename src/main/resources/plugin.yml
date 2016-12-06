@@ -1,0 +1,8 @@
+name: ${project.name}
+version: ${project.version}
+description: '${project.description}'
+depend: []
+softdepend: []
+authors: [${plugin.authors}]
+website: ${project.url}
+main: ${plugin.main}
