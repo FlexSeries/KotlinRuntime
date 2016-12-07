@@ -8,7 +8,7 @@
     <artifactId>kotlinruntime</artifactId>
     <version>1.0.5-2</version>
     <name>KotlinRuntime</name>
-    <description>A Bukkit plugin that provides the Kotlin runtime library</description>
+    <description>A Bukkit/Bungee plugin that provides the Kotlin runtime library</description>
 
     <properties>
         <plugin.authors>Stealth2800</plugin.authors>
