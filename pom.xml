@@ -6,16 +6,16 @@
 
     <groupId>me.st28.flexseries</groupId>
     <artifactId>kotlinruntime</artifactId>
-    <version>${kotlin.version}</version>
+    <version>1.0.5-2</version>
     <name>KotlinRuntime</name>
-    <description>A Bukkit plugin that provides the Kotlin runtime library</description>
+    <description>A Bukkit/Bungee plugin that provides the Kotlin runtime library</description>
 
     <properties>
         <plugin.authors>Stealth2800</plugin.authors>
         <plugin.main>${project.groupId}.${project.artifactId}.${project.name}</plugin.main>
         <plugin.main.bungee>${project.groupId}.${project.artifactId}.bungee.${project.name}</plugin.main.bungee>
 
-        <kotlin.version>1.0.5-2</kotlin.version>
+        <kotlin.version>${project.version}</kotlin.version>
     </properties>
 
     <scm>
