@@ -6,7 +6,7 @@
 
     <groupId>me.st28.flexseries</groupId>
     <artifactId>kotlinruntime</artifactId>
-    <version>1.0.5-2</version>
+    <version>1.1-M04</version>
     <name>KotlinRuntime</name>
     <description>A Bukkit/Bungee plugin that provides the Kotlin runtime library</description>
 
@@ -52,10 +52,22 @@
         </repository>
 
         <repository>
+            <id>kotlin-1.1-eap-repo</id>
+            <url>http://dl.bintray.com/kotlin/kotlin-eap-1.1</url>
+        </repository>
+
+        <repository>
             <id>bungeecord-repo</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
     </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>kotlin-1.1-eap-repo</id>
+            <url>http://dl.bintray.com/kotlin/kotlin-eap-1.1</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencies>
         <dependency>
@@ -227,6 +239,7 @@
                                     <include>org.jetbrains.kotlin:kotlin-reflect</include>
                                     <include>org.jetbrains.kotlin:kotlin-runtime</include>
                                     <include>org.jetbrains.kotlinx:kotlinx-support-jdk8</include>
+                                    <include>org.jetbrains.kotlinx:kotlinx-support-jdk7</include>
                                 </includes>
                             </artifactSet>
                         </configuration>
