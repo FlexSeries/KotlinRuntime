@@ -6,7 +6,7 @@
 
     <groupId>me.st28.flexseries</groupId>
     <artifactId>kotlinruntime</artifactId>
-    <version>1.1.0-beta-17</version>
+    <version>1.1.0-rc-91</version>
     <name>KotlinRuntime</name>
     <description>A Bukkit/Bungee plugin that provides the Kotlin runtime library</description>
 
@@ -91,7 +91,7 @@
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-coroutines-core</artifactId>
-            <version>0.3-beta</version>
+            <version>0.10-rc</version>
         </dependency>
 
         <dependency>
